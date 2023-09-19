@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 1000px;
+}
+
+header,
+header>img,
+main {
+    height: 100%;
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 100%;
+    background-image: url(../img/portdeck-550x1280.jpg);
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: 100px;
+    justify-content: center;
+    gap: 0.5rem;
+    background: rgba(173, 166, 152, 0.5);
+}
+main,
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.logo img {
+    height: 6rem;
+}
