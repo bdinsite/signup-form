@@ -1,18 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Roboto+Mono:wght@300;400;600&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
 }
 
 body {
     display: flex;
-    height: 1000px;
+    height: 800px;
+    background-color: #ecebeb;
 }
 
 header,
 header>img,
 main {
     height: 100%;
+}
+
+h1,
+h2 {
+    font-family: 'Fuggles', cursive;
+}
+
+h1 {
+    font-size: 5rem;
+    color: rgb(133, 114, 67);
+}
+
+h2 {
+    font-size: 2rem;
+    align-self: end;
+    padding-left: 0.5vw;
+    color: rgb(73, 73, 54);
 }
 
 .imgContainer {
@@ -29,6 +50,7 @@ main {
     position: relative;
     top: 100px;
     justify-content: center;
+    align-items: center;
     gap: 0.5rem;
     background: rgba(173, 166, 152, 0.5);
 }
@@ -42,4 +64,16 @@ main,
 
 .logo img {
     height: 6rem;
+}
+
+.logoText {
+    display: flex;
+}
+
+.signup {
+    padding: 30px;;
+}
+
+form {
+    background-color: #fff;
 }
