@@ -10,7 +10,10 @@
 
 body {
     display: flex;
+    justify-content: center;
+    margin: 0 auto;
     height: 800px;
+    width: 800px;
     background-color: #ecebeb;
 }
 
@@ -119,4 +122,31 @@ label {
 .pswConf {
     display: flex;
     flex-direction: column;
+}
+
+.create {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+button {
+    width: 15vw;
+    background-color: rgb(133, 114, 67, 0.6);
+    color: #fff;
+    box-shadow: 2px 2px 10px 2px  rgb(133, 114, 67, 0.6);
+    border-radius: 0.5rem;
+    border: 1px solid  rgb(73, 73, 54);
+    padding: 5px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #fff;
+    color: rgb(133, 114, 67, 0.6);
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
 }
